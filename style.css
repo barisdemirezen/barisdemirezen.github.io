@@ -1,0 +1,213 @@
+body,html {
+	width: 100vw;
+	border:0px;
+	margin:0px;
+	font-family: 'Montserrat';
+	overflow-x:hidden;
+	margin-bottom: 20px;
+}
+
+input{
+	text-align: center;
+	border: 1px solid black;
+	border-radius: 5px;
+	width: 600px;
+	padding: 10px 20px;
+}
+
+button{
+	background-color:navy;
+	color:white;
+	padding:10px 20px;
+	border:none;
+	border-radius: 5px;
+}
+
+
+#dataInput{
+	position: absolute;
+	top:50%;
+	left:50%;
+	float:left;
+	transform: translate(-50%,-50%);
+	text-align: center;
+}
+
+#showDataButton{
+	margin:10px 0 0 10px;
+}
+#centerContainer {
+	width:452px;
+	height: 989px;
+	margin: 0px auto;
+	background:linear-gradient(rgba(103,99,98,1),rgba(27,27,27,1));
+}
+
+#top-bar{
+	display:flex;
+	align-items: space-around;
+}
+
+.fas{
+	color:white;
+}
+
+.fa-chevron-down{
+	margin-top:58px;
+	margin-left:29px;
+}
+
+.fa-ellipsis-v{
+	margin:58px 0px 0px 93px;
+}
+
+#top-bar h4{
+	margin:58px 0px 0px 105px;
+	color:white;
+	font-weight: 500;
+}
+
+#singer{
+	text-align: center;
+	margin-top:5px;
+}
+
+#singer h5{
+	margin:auto;
+	color:white;
+}
+
+#album-image{
+	text-align: center;
+}
+
+#album-image img{
+	width:400px;
+	height: 400px;
+	margin-top:108px;
+}
+
+#name-section{
+	color:white;
+	margin: auto;
+	text-align: left;
+	width: 400px;
+	height: 60px;
+	margin-top:110px;
+	margin-left: 39px;
+	display:flex;
+}
+
+#name-section h4{
+	margin:0;
+	font-size:20px;
+}
+
+#name-section h5{
+	margin-top:4px;
+	font-size:18px;
+	font-weight: 400;
+	position: absolute;
+	width: 400px;
+}
+
+#like{
+	width: 50px;
+	margin-left:120px;
+	position: absolute;
+}
+
+.fa-heart{
+	color:#1ED760;
+    margin-left: 240px;
+    font-size: 26px;
+    margin-top: 5px;
+
+}
+
+#song-length-bar{
+	height: 2px;
+	width: 387px;
+	margin:auto;
+	margin-top:30px;
+	background-color:grey;
+	position: relative;
+}
+
+#progress-bar{
+	height: 2px;
+	width: 40px;
+	margin:auto;
+	margin-left:30px;
+	margin-top:-2px;
+	background-color:white;
+	position: relative;
+}
+
+#progress-bar-dot{
+	height: 12px;
+	width: 12px;
+	border-radius: 20px;
+	margin:auto;
+	margin-left:30px;
+	margin-top:-5px;
+	background-color:white;
+	position: absolute;
+}
+
+#song-length{
+	display: flex;
+	width: 400px;
+	margin:auto;
+}
+
+#current-time{
+	color:white;
+	margin-left:5px;
+}
+
+#max-time{
+	color:white;
+	margin-left:330px;
+}
+
+#player{
+	display:flex;
+	color:white;
+	width: 400px;
+	margin:auto;
+	margin-top:20px;
+	font-size:25px;
+}
+
+#player .fas:not(:first-child){
+	margin-left:105px;
+}
+
+#pause-bg{
+	background-color: white;
+	width: 75px;
+	height: 75px;
+	position: absolute;
+	border-radius: 50px;
+	margin-left:167px;
+	margin-top:-25px;
+}
+
+.fa-pause{
+	color:black;
+	margin-left:26px;
+	margin-top: 25px;
+}
+
+.column {
+  float: left;
+  width: 50%;
+}
+
+@media (max-width: 1000px){
+	.column {
+	  float: left;
+	  width: 100%;
+	}
+}
