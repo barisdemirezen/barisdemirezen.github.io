@@ -2,7 +2,7 @@ body,html {
 	width: 100vw;
 	border:0px;
 	margin:0px;
-	font-family: 'Montserrat';
+	font-family: 'Montserrat', sans-serif;
 	overflow-x:hidden;
 	margin-bottom: 20px;
 }
