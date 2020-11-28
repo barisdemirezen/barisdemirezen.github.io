@@ -1,4 +1,4 @@
 <h1> Car Gallery </h1>
 <h4>Please use this link to go page of this repo <a href="https://barisdemirezen.github.io/car-gallery" target"_blank"> CAR GALLERY </a>.</h4>
-<p>This project is built with html css only. Also there is some js from <a href="getbootstrap.com" target="_blank">Bootstrap Framework </a>. Since there is php or newer frameworks, menu is built with html codes which repeats on every page.</p>
+<p>This project is built with html css only. Also there is some js from <a href="https://getbootstrap.com" target="_blank">Bootstrap Framework </a>. Since there is php or newer frameworks, menu is built with html codes which repeats on every page.</p>
 <p>This is also a good explanation of why should we use new technologies. We should render even same static html codes between pages. So it will be easier to maintain and develop the code with using an framework that includes <b> "Component" </b>technologies like <a href="https://vuejs.org" target="_blank"> Vue.js </a> or <a href="https://tr.reactjs.org" target="_blank"> React</a>
