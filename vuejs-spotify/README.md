@@ -1,5 +1,5 @@
 <h1>Vuejs Spotify Album Creator</h1>
-<h4>Please use this link to go page of this repo <a href="barisdemirezen.github.io/vuejs-spotify" target"_blank"> VUEJS SPOTIFY </a>.</h4>
+<h4>Please use this link to go page of this repo <a href="https//barisdemirezen.github.io/vuejs-spotify" target"_blank"> VUEJS SPOTIFY </a>.</h4>
 <p>This project is based on basic principles of Vuejs. The css is written in very simple techniques without thinking for responsive design. Main objective is showing two way data binding with Vuejs.</p>
 <h2>How To Use?</h2>
 <p>There are three text fields on landing page.</p>
